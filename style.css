@@ -1,0 +1,68 @@
+/*
+Theme Name: themes cua nhom H
+Author: nhom H
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020...
+Tags: blog, one-column, ...
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've
+learned with others.
+*/
+:root{
+    --color--primary : #007bff;
+}
+#slide{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+#slide img{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    padding: 20px 0;
+    background-color: #f8f9fa ;
+}
+.gallery-item{
+    width: 100% !important;
+}
+.attachment-medium.size-medium{
+    width: 100%;
+    height: 100%;
+}
+#woocommerce-product-search-field-0{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 3px 7px;
+}
+button[type="submit"]{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: var(--color--primary);
+    color: white;
+    padding: 4px 7px;
+}
+.navbar-brand>img{
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px){
+    #custom_html-2{
+        text-align: center !important;
+    }
+    .navbar-brand>img{
+        width: 100px !important;
+        height: 50px !important;
+    }
+}
